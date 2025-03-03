@@ -42,6 +42,7 @@ class MyApp extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
+                  border: Border.all(color: Colors.black, width: 0.5), // Contorno negro
                   color: Colors.red,
                 ),
               ),
