@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 146, 247, 213),
+        backgroundColor: const Color.fromARGB(255, 235, 250, 245),
         appBar: AppBar(
           title: const Text(
             "Luis Molinar MAT:1081",
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          backgroundColor: const Color.fromARGB(255, 7, 204, 56), // Color de fondo del AppBar
+          backgroundColor: const Color.fromARGB(255, 0, 0, 0), // Color de fondo del AppBar
           centerTitle: true, // Centra el título en el AppBar
         ),
         body: Center(
