@@ -52,6 +52,7 @@ class MyApp extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
+                   border: Border.all(color: Colors.black, width: 0.5), // Contorno negro
                   image: const DecorationImage(
                     image: NetworkImage(
                         'https://raw.githubusercontent.com/Luis-Molinar-1081/aeropuerto_imagenes_app_flutter/refs/heads/main/Buo.PNG'),
